@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codo.Windsor", "Codo.Windsor\Codo.Windsor.csproj", "{75FFAA37-091C-4CEA-A1DB-60FB3DBC57D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codo.Windsor.WebApi", "Codo.Windsor.WebApi\Codo.Windsor.WebApi.csproj", "{6C51B1C2-6B42-412B-9D10-866E6214DDB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codo.Windsor.Mvc", "Codo.Windsor.Mvc\Codo.Windsor.Mvc.csproj", "{A0C8DF9F-F6DE-40F0-B947-FF46203B6164}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75FFAA37-091C-4CEA-A1DB-60FB3DBC57D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75FFAA37-091C-4CEA-A1DB-60FB3DBC57D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75FFAA37-091C-4CEA-A1DB-60FB3DBC57D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75FFAA37-091C-4CEA-A1DB-60FB3DBC57D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C51B1C2-6B42-412B-9D10-866E6214DDB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C51B1C2-6B42-412B-9D10-866E6214DDB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C51B1C2-6B42-412B-9D10-866E6214DDB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C51B1C2-6B42-412B-9D10-866E6214DDB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0C8DF9F-F6DE-40F0-B947-FF46203B6164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C8DF9F-F6DE-40F0-B947-FF46203B6164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C8DF9F-F6DE-40F0-B947-FF46203B6164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C8DF9F-F6DE-40F0-B947-FF46203B6164}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

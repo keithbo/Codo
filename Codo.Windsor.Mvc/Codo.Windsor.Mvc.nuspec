@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>Keith Bosacker</authors>
+    <owners>Keith Bosacker</owners>
+    <licenseUrl>https://github.com/keithbo/Codo/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/keithbo/Codo</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <title>Codo.Windsor Asp.Net MVC Utilities</title>
+    <description>Utilities and helper classes for simplifying configuration of Asp.Net MVC using Castle Windsor.</description>
+    <tags>Windsor Configuration Utilities Asp.Net MVC</tags>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.Mvc" version="5.2.2" />
+      <dependency id="Codo.Windsor" version="$version$" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\bin\$configuration$\$id$.dll" target="lib\net45" />
+    <file src="..\bin\$configuration$\$id$.pdb" target="lib\net45" />
+    <file src="..\bin\$configuration$\$id$.xml" target="lib\net45" />
+  </files>
+</package>
