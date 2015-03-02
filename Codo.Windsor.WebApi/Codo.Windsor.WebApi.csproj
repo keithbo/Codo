@@ -85,10 +85,11 @@
       <Link>Properties\CommonVersionInfo.cs</Link>
     </Compile>
     <Compile Include="AuthenticationFilterAdapter.cs" />
+    <Compile Include="AuthenticationWebApiConfigurer.cs" />
     <Compile Include="DiagnosticWebApiConfigurer.cs" />
     <Compile Include="IWebApiConfigurer.cs" />
     <Compile Include="JsonWebApiConfigurer.cs" />
-    <Compile Include="OAuthWebApiConfigurer.cs" />
+    <Compile Include="SuppressDefaultAuthenticationWebApiConfigurer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

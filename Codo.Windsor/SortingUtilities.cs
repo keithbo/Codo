@@ -5,8 +5,17 @@
 	using System.Linq;
 	using System.Reflection;
 
+	/// <summary>
+	/// Static helper extensions for sorting
+	/// </summary>
 	public static class SortingUtilities
 	{
+		/// <summary>
+		/// Sorts an IEnumerable of types based on their DependsOnAttribute metadata, if any.
+		/// This method is non-destructive and returns a new IEnumerable instance post-sort.
+		/// </summary>
+		/// <param name="sourceTypes">input enumerable of type objects</param>
+		/// <returns>sorted output enumerable of type objects</returns>
 		public static IEnumerable<Type> SortByDependsOn(this IEnumerable<Type> sourceTypes)
 		{
 			Dictionary<Type, IEnumerable<Type>> dependsOnMap =

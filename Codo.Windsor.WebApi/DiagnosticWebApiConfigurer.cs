@@ -2,14 +2,29 @@
 {
 	using System.Web.Http;
 
+	/// <summary>
+	/// Configure WebApi diagnostics tracing
+	/// </summary>
 	public class DiagnosticWebApiConfigurer : IWebApiConfigurer
 	{
+		/// <summary>
+		/// Enable Debug level tracing
+		/// </summary>
 		public bool EnableTrace { get; set; }
 
+		/// <summary>
+		/// Include error detail policy
+		/// </summary>
 		public bool IncludeErrorPolicy { get; set; }
 
+		/// <summary>
+		/// Force error detail policy to be local only
+		/// </summary>
 		public bool LocalErrorPolicyOnly { get; set; }
 
+		/// <summary>
+		/// Constructs a new DiagnosticWebApiConfigurer
+		/// </summary>
 		public DiagnosticWebApiConfigurer()
 		{
 			this.EnableTrace = false;
@@ -17,6 +32,10 @@
 			this.LocalErrorPolicyOnly = false;
 		}
 
+		/// <summary>
+		/// Perform configuration with an HttpConfiguration as input context.
+		/// </summary>
+		/// <param name="configuration">HttpConfiguration</param>
 		public void Configure(HttpConfiguration configuration)
 		{
 			// To disable tracing in your application, please comment out or remove the following line of code
